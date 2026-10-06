@@ -29,7 +29,7 @@ number_1 =float(input("\nEnter the number:" ))
 number_2 =float(input("Enter the another number:"))
 product = number_1 * number_2
 print()
-print(f"{number_1}*{number_2} = {product:}")
+print(f"{number_1}*{number_2} = {product}")
 
 #Section 4
 item = "Programming Fundamentals Book"
@@ -41,10 +41,10 @@ print("="* 25)
 print("\t RECEIPT")
 print("="*25)
 print(f"Item: {item}")
-print(f"Price: ${price}")
+print(f"Price: ${price:.2f}")
 print(f"Quantity: {quantity}")
 print("-"*25)
-print(f"Total: {total}")
+print(f"Total: {total:.2f}")
 print("="*25)
 
 #Section 5
